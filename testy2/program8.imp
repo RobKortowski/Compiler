@@ -1,0 +1,28 @@
+{ program8.imp }
+VAR
+	a b c
+BEGIN
+	READ a;
+	READ b;
+	READ c;
+	FOR i FROM 2 DOWNTO 0 DO
+		FOR j FROM 0 TO 5 DO
+			FOR k FROM 0 TO 5 DO
+				WRITE 111111111111111111;
+				WRITE i;
+				WRITE j;
+				WRITE k;	
+				WRITE 1111111111111;
+
+				a := a + k;
+				c := k * j;
+				c := c + i;
+				b := b + c;
+			ENDFOR
+		ENDFOR
+	ENDFOR
+	WRITE a;
+	WRITE b;
+	WRITE c;
+END
+

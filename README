@@ -1,0 +1,12 @@
+Robert Kortowski 221450@student.pwr.edu.pl
+
+Kompilator- calc.
+
+Opis- w katalogu src znajdują się pliki źródłowe kompilatora.
+Kompilator został napisny z użyciem biblioteki cln. 
+
+Sposób użycia:
+calc <plik_wejściowy> <plik_wyjściowy>
+
+na przykład:
+>./calc a.in b.out
